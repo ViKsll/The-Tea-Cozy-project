@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* header*/
+
+header  {
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 69px;
+}
+.tealogo img{
+    height: 50px;
+    margin-left: 10px;;
+    margin-top: 5px;
+}
+.headerList h4 {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0px 10px;
+    display: inline-block;
+    text-decoration: underline;
+    }
+.headerList a:hover {
+    color: gray;
+}
+
+/* header */
+
+
+/* body */
+
+#mission {
+    margin: 0 auto;
+    display: flex;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    height: 700px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    padding-top: 69px;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    width: 100%;
+}
+#store {
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.item {
+    padding: 5px;
+}
+.item img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+.item span {
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+
+/* location */
+#location {
+    position: relative;
+    background-image:url('imgs/img-locations-background.jpeg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 550px;
+    width: 100%;
+    top: 40px;
+}
+.locationtext {
+    position: relative;
+    top: 45px;
+}
+
+#location .flex-container {
+    margin: auto;
+    padding-top: 50px;
+}
+.locs {
+    opacity: 1;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* /location */
+
+/* /body */
+
+/* footer */ 
+#footer {
+    position: relative;
+    height: 200px;
+    top: 50px;
+}
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
+/* /footer */
